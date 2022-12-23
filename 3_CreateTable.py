@@ -5,6 +5,7 @@ connection = mysql.connector.connect(
   host="localhost",
   user="กรอก Username ตรงนี้",
   password="กรอกรหัสผ่านตรงนี้"
+  database="OurDB"
 )
 
 db_cursor = connection.cursor()
